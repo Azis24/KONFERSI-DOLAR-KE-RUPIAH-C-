@@ -1,0 +1,18 @@
+#include<iostream>
+#include<conio.h>
+#include<stdlib.h>
+using namespace std;
+
+int main (){
+system ("color e");	
+	int Dollar;
+    //proses input Dollar
+    cout<<"Masukkan nilai Dollar = ";
+    cin>>Dollar;
+    //proses perhitungan
+    float Rupiah;
+    Rupiah= Dollar*8000;
+    ///prose output
+    cout<<"Hasil pertukaran = "<<Rupiah<<endl;
+    getch();
+}
